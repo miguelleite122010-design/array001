@@ -1,0 +1,19 @@
+package array;
+
+import javax.swing.JOptionPane;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+    int numeros [] = new int[10];
+    for (int p = 0; p < 10; p++)
+ {
+	
+	numeros[p] = Integer.parseInt(JOptionPane.showInputDialog("Digite 10 numeros"));
+
+}
+}
+
+}
